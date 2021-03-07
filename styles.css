@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,500;1,800&display=swap');
+</style>
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.background {
+  background: linear-gradient(
+    272deg,
+    #a6d5ff,
+    #db7efa,
+    #ff830f,
+    #fca84d,
+    #fe78b4,
+    #1987fe
+  );
+  background-size: 1200% 1200%;
+
+  -webkit-animation: AnimationName 30s ease infinite;
+  -moz-animation: AnimationName 30s ease infinite;
+  -o-animation: AnimationName 30s ease infinite;
+  animation: AnimationName 30s ease infinite;
+
+  width: 100wh;
+  height: 100vh;
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 52%;
+  }
+  50% {
+    background-position: 100% 49%;
+  }
+  100% {
+    background-position: 0% 52%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 52%;
+  }
+  50% {
+    background-position: 100% 49%;
+  }
+  100% {
+    background-position: 0% 52%;
+  }
+}
+@-o-keyframes AnimationName {
+  0% {
+    background-position: 0% 52%;
+  }
+  50% {
+    background-position: 100% 49%;
+  }
+  100% {
+    background-position: 0% 52%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 52%;
+  }
+  50% {
+    background-position: 100% 49%;
+  }
+  100% {
+    background-position: 0% 52%;
+  }
+}
+
+main {
+  display: flex;
+  width: 95vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.extra {
+  display: flex;
+  height: 10vh;
+}
+
+.animbox {
+  display: flex;
+  justify-content: center;
+  width: 70vw;
+}
+.zonkbox {
+  display: flex;
+  width: 70vw;
+  justify-content: center;
+  font-family: Playfair Display;
+  color: rgb(95, 95, 95);
+  font-size: 1.2em;
+  font-style: normal;
+  font-weight: 200;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+button {
+  font-family: Playfair Display;
+  font-size: 1.8em;
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 24px;
+  background-color: rgb(232, 248, 255);
+  color: rgb(153, 153, 153);
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(1, 82, 119);
+  border: none;
+  color: ivory;
+  outline-style: none;
+}
+button:active {
+  transform: translateY(2px);
+}
+label {
+  font-family: The Girl Next Door;
+  font-size: 2em;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: rgb(232, 248, 255);
+  border-radius: 24px;
+  color: rgb(153, 153, 153);
+}
+input {
+  display: flex;
+  background-color: rgb(232, 248, 255);
+  justify-content: center;
+  align-items: center;
+  appearance: none;
+  outline-style: none;
+  border: none;
+  color: rgb(153, 153, 153);
+  font-family: Playfair Display;
+  font-size: 1.5em;
+  text-align: center;
+  border-bottom: 2px solid rgb(224, 224, 224);
+}
+input .submit {
+  font-family: Playfair Display;
+  font-size: 1.5em;
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 24px;
+  background-color: rgb(232, 248, 255);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.inputbox {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  margin: top 10px;
+  font-family: Playfair Display;
+  font-size: 1em;
+  border-radius: 24px;
+  background-color: rgb(232, 248, 255);
+  width: 20em;
+  height: 2em;
+}
+.inputbox:hover {
+  box-shadow: 0 1px 6px 0 rgba(94, 94, 94, 0.7);
+  border-color: rgba(223, 225, 229, 0);
+}
+
+p {
+  font-family: Playfair Display;
+  font-size: 2em;
+  text-align: left;
+}
+section{
+  font-family: Playfair Display;
+  font-size: 1.3rem;
+  font-style: italic;
+  color:#b3b3b3;
+}
+#capital{
+  font-family: Playfair Display;
+  font-size: 3rem;
+  font-weight: 500;
+  font-style: italic;
+}
+#brace{
+  font-size:3rem;
+}
+.quotebox{
+  display:flex;
+  justify-content: center;
+  align-content: center;
+  width: 65%;
+  height: 10%;
+  
+  
+
+}
+@media (max-width: 500px) {
+  .zonkbox {
+    font-size: 0.9em;
+  }
+  img {
+    max-width: 90%;
+    max-height: 90%;
+  }
+  p{
+    font-size: 1.2em;
+  }
+  #capital{
+    font-size: 2.5rem;
+  }
+  section{
+    font-size:.8em;
+  }
+  .inputbox {
+    max-width: 50%;
+  }
+  input {
+    max-width: 50%;
+  }
+}
+@media (max-width: 414px) {
+  label {
+    font-size: 1.2em;
+  }
+  button {
+    font-size: 1.5em;
+  }
+}
+
+@media (min-width: 1024px) {
+  label {
+    font-size: 3em;
+    padding: 15px;
+  }
+  button {
+    font-size: 2em;
+  }
+  .inputbox {
+    width: 30em;
+    height: 3em;
+  }
+  input {
+    width: 10em;
+    font-size: 2.5em;
+  }
+}
