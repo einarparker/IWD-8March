@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,500;1,800&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap");
 </style > * {
   margin: 0;
   padding: 0;
@@ -232,12 +232,12 @@ section {
     font-size: 1.2em;
   }
   img {
-    max-width: 90%;
-    max-height: 90%;
+    max-width: 65%;
+    max-height: 65%;
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   label {
     font-size: 1.5em;
     padding: 15px;
@@ -254,7 +254,32 @@ section {
     font-size: 1.5em;
   }
   img {
-    max-width: 75%;
-    max-height: 75%;
+    max-width: 55%;
+    max-height: 55%;
+  }
+}
+@media (min-width: 1800px) {
+  label {
+    font-size: 1.5em;
+    padding: 15px;
+  }
+  button {
+    font-size: 1.5em;
+  }
+  .inputbox {
+    width: 15em;
+    height: 3em;
+  }
+  input {
+    width: 5em;
+    font-size: 1.5em;
+  }
+  img {
+    max-width: 55%;
+    max: height 55%;
+  }
+  .extra {
+    display: flex;
+    height: 5vh;
   }
 }
