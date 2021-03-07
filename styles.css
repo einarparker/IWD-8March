@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,500;1,800&display=swap');
-</style>
-* {
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,500;1,800&display=swap");
+</style > * {
   margin: 0;
   padding: 0;
   border: 0;
@@ -15,7 +14,7 @@ main {
 }
 .extra {
   display: flex;
-  height: 10vh;
+  height: 5vh;
 }
 
 .animbox {
@@ -25,13 +24,13 @@ main {
 }
 .zonkbox {
   display: flex;
-  width: 70vw;
+  width: 75vw;
   justify-content: center;
   font-family: Playfair Display;
   color: rgb(95, 95, 95);
-  font-size: 1.2em;
+  font-size: 1.5em;
   font-style: normal;
-  font-weight: 200;
+  font-weight: 400;
 }
 
 form {
@@ -120,32 +119,29 @@ p {
   font-size: 2em;
   text-align: left;
 }
-section{
+section {
   font-family: Playfair Display;
   font-size: 1.3rem;
   font-style: italic;
-  color:#b3b3b3;
+  color: #b3b3b3;
 }
-#capital{
+#capital {
   font-family: Playfair Display;
   font-size: 3rem;
   font-weight: 500;
   font-style: italic;
 }
-#brace{
-  font-size:3rem;
+#brace {
+  font-size: 3rem;
 }
-.quotebox{
-  display:flex;
+.quotebox {
+  display: flex;
   justify-content: center;
   align-content: center;
   width: 65%;
   height: 10%;
-  
-  
-
 }
-@media(min-width:500px){
+@media (min-width: 500px) {
   label {
     font-size: 1em;
     padding: 10px;
@@ -161,7 +157,10 @@ section{
     width: 5em;
     font-size: 1.2em;
   }
-
+  img {
+    max-width: 90%;
+    max-height: 90%;
+  }
 }
 @media (max-width: 500px) {
   .zonkbox {
@@ -171,14 +170,14 @@ section{
     max-width: 90%;
     max-height: 90%;
   }
-  p{
+  p {
     font-size: 1.2em;
   }
-  #capital{
+  #capital {
     font-size: 2.5rem;
   }
-  section{
-    font-size:.8em;
+  section {
+    font-size: 0.8em;
   }
   .inputbox {
     max-width: 50%;
@@ -209,8 +208,12 @@ section{
   input {
     font-size: 1.5em;
   }
+  img {
+    max-width: 90%;
+    max-height: 90%;
+  }
 }
-@media(min-width:700px){
+@media (min-width: 700px) {
   label {
     font-size: 1.5em;
     padding: 10px;
@@ -226,7 +229,10 @@ section{
     width: 5em;
     font-size: 1.2em;
   }
-
+  img {
+    max-width: 90%;
+    max-height: 90%;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -244,5 +250,9 @@ section{
   input {
     width: 5em;
     font-size: 1.5em;
+  }
+  img {
+    max-width: 75%;
+    max-height: 75%;
   }
 }
